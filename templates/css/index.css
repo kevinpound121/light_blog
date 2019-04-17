@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+.page{
+    margin: 0 auto;
+    max-width: 42em;
+    font-size: 18px;
+    padding-left: 5%;
+    padding-right: 5%;
+    width: 90%;
+    padding-bottom: 30px;
+    color: #333;
+    font-family: "Gentium Basic", Georgia, "Source Han Sans CN", "PingFang SC", "Hiragino Sans GB", "Microsoft Yahei", sans-serif;
+}
+.title{
+    padding-bottom: 1em;
+}
+.title h1{
+    margin: 0;
+    font-size: 400%;
+    color: #444;
+    font-weight: normal;
+    line-height: 1;
+}
+.title h3{
+    margin: 0;
+    font-size: 120%;
+    font-weight: normal;
+    padding-left: 1em;
+}
+.main{
+    line-height: 1.75;
+}
+.footer{
+    padding-top: 4em;
+    text-align: right;
+    color: #999;
+}
