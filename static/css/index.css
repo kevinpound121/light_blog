@@ -3,15 +3,25 @@
     padding: 0;
     box-sizing: border-box
 }
+#particles{
+    background-color: #574e4f;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
 .page{
-    margin: 0 auto;
+    width: 300px;
+    height: 200px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    margin: auto;
     max-width: 42em;
     font-size: 18px;
-    padding-left: 5%;
-    padding-right: 5%;
-    width: 90%;
-    padding-bottom: 30px;
-    color: #333;
+    color: #f6e4e4;
     font-family: "Gentium Basic", Georgia, "Source Han Sans CN", "PingFang SC", "Hiragino Sans GB", "Microsoft Yahei", sans-serif;
 }
 .title{
@@ -20,7 +30,7 @@
 .title h1{
     margin: 0;
     font-size: 400%;
-    color: #444;
+    color: #fff;
     font-weight: normal;
     line-height: 1;
 }
